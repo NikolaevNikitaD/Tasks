@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script> 
+  let name=prompt('Kak vas zovut?');
+  if (name=='Админ'){
+let password=prompt('Vvedite parol');
+if (password=='Я главный'){
+    alert('Zdravstvuite');
+}else if (password==null || password==''){
+    alert('Otmeneno');
+}else{
+    alert('neverni parol');
+}
+  }else if (name==null || name==''){
+alert('Otmeneno');
+  }else{
+      alert(`ya vas ne znau, ${name}`);
+  }
+  </script>
+
+</body>
+</html>
