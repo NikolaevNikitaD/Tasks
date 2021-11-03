@@ -1,4 +1,4 @@
-const a = + (prompt("Введите число"));
+const a = +(prompt("Введите число"));
 let d = 2;
 
 while (d <= a) {

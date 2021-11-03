@@ -1,4 +1,4 @@
-let a = + (prompt("Введиет число"));
+let a = +(prompt("Введиет число"));
 let sum = 0;
 let p = 1;
 let k = 0;

@@ -1,4 +1,4 @@
-let a = + (prompt("Введиет число"));
+let a = +(prompt("Введиет число"));
 let min = a % 10;
 let max = 0;
 
