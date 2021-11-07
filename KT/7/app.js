@@ -6,5 +6,5 @@ const y2 = +prompt("введите y2");
 if (x1 - x2 === y1 - y2 || x1 - x2 === y2 - y1 || x1 === x2 || y1 === y2) {
     alert("YES");
 } else {
-    alert ("NO");
+    alert("NO");
 };
