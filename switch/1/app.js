@@ -1,6 +1,6 @@
 const num = +prompt("Введите Num");
 
-switch (num) { 
+switch (num) {
     case 1:
         alert("Весна");
         break;
@@ -14,5 +14,5 @@ switch (num) {
         alert("Зима");
         break;
     default:
-        alert("Введите число от 1 до 4");   
+        alert("Введите число от 1 до 4");
 }

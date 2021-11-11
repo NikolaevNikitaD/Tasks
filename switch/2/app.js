@@ -1,10 +1,10 @@
 const a = +prompt("Введите день") - 1;
-const n = (a  - a  % 10) / 10;
+const n = (a - a % 10) / 10;
 
 switch (n) {
     case 0:
         if (a >= 0) {
-        alert("Первая декада")
+            alert("Первая декада")
         } else {
             alert("Нет такого дня");
         }
