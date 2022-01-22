@@ -1,0 +1,1 @@
+shift, pop, arr[0], arr[arr.length - 1], find(), filter() 
